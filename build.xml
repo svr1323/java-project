@@ -38,7 +38,7 @@
 	<target name="jar" depends="compile">
 		<jar destfile="${dist.dir}\rectangle.jar" basedir="${build.dir}">
 			<manifest>
-				<attribute name="Main-Class" value="Rectanglator" />
+				<attribute name="Main-Class" value="Rectangulator" />
 			</manifest>
 		</jar>
 	</target>
